@@ -316,3 +316,66 @@ ul{
 .product__card-content{
   height: 50ch;
 }
+/* ! SECTION DISHES */
+.dishes{
+  display: flex;
+  flex-wrap: wrap;
+}
+.dishes__content{
+  flex: 0 0 33.33%;
+}
+.dishes__content{
+  width: 50ch;
+  height: 50ch;
+}
+.dishes-img1{
+  background-image: url(assets/dishes-img1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dishes-img2{
+  background-image: url(assets/dishes-img2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dishes-text{
+  background-color: #F5F1E9;
+  box-sizing: border-box;
+  padding: 6rem 1rem;
+}
+.dtext__hashtag{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.dtext__text{
+  margin: 3rem 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #35312E;
+}
+.dtext__btn button{
+  margin-top: 1rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(170, 160, 152, 0.29);
+  border-radius: 4px;
+  height: 7ch;
+  width: 30ch;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4F463F;
+}
