@@ -164,3 +164,32 @@ ul{
   background-image: url(assets/oprah.svg);
   width: 15ch;
 }
+/* ! SECTION - WELCOME */
+.welcome{
+  height: 50ch;
+  height: 44ch;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.welcome__title{
+  width: 50%;
+  font-weight: 700;
+  font-size: 41px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #35312E;
+  box-sizing: border-box;
+  padding: 6rem 10rem;
+}
+.welcome__text{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5rem 4rem 6rem 0rem;
+}
+.welcome__text p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #4F463F;
+  line-height: 1.7rem;
+}
