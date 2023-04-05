@@ -1,0 +1,19 @@
+body{
+  font-family: Roboto;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.shipping-and-returns{
+  background: #F0EEDD;
+  height: 40px;
+}
+.shipping-and-returns h2{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #670A18;
+  margin: 0;
+}
