@@ -224,7 +224,95 @@ ul{
   display: flex;
   justify-content: space-between;
 }
-.designed__content-item{
-  position: relative;
-
+/* ! SECTION PRODUCTS */
+.products{
+  height: 100ch;
+}
+.ptext__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: #35312E;
+  box-sizing: border-box;
+  padding: 5rem 28rem 2rem;
+}
+.ptext__subtitle{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #4F463F;
+  box-sizing: border-box;
+  padding: 0 30rem;
+}
+.products__cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.product__card{
+  height: 30ch;
+  box-sizing: border-box;
+  padding: 0 3rem;
+}
+.pcard__text{
+  box-sizing: border-box;
+  padding: 0 3rem;
+}
+.pcard__title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312E;
+}
+.pcard__subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #6E635A;
+}
+.pcard__text-p{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #6E635A;
+}
+.pcard__img{
+  background-image: url(assets/Oval.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+ background-position: bottom;
+}
+.pcard__icons{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 100%;
+  height: 2ch;
+}
+.pc__i1{
+  background-image: url(assets/Frame.svg);
+}
+.pc__i2{
+  background-image: url(assets/Frame\ \(1\).svg);
+}
+.pc__i3{
+  background-image: url(assets/Frame\ \(2\).svg);
+}
+.pc__i4{
+  background-image: url(assets/Frame\ \(3\).svg);
+}
+.product__card-content{
+  height: 50ch;
 }
