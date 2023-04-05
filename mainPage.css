@@ -77,7 +77,7 @@ ul{
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 76ch;
+  height: 67ch;
   box-sizing: border-box;
   padding: 10rem 25rem;
 
@@ -121,4 +121,46 @@ ul{
   text-transform: uppercase;
   border: none;
   margin-top: 5ch;
+}
+/* ! SECOND SECTION - BON APPETIT */
+.bonappetit{
+  background-color: #F5F1E9;
+  height: 24ch;
+}
+.bon-text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #35312E;
+  box-sizing: border-box;
+  padding: 2.5rem 25rem 0;
+}
+.bon-icons{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bon-appetit, .nyt, .vogue, .oprah{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7ch;
+}
+.bon-appetit{
+  background-image: url(assets/bon.svg);
+  width: 15ch;
+}
+.nyt{
+  background-image: url(assets/nyt.svg);
+  width: 25ch;
+}
+.vogue{
+  background-image: url(assets/voggue.svg);
+  width: 12ch;
+}
+.oprah{
+  background-image: url(assets/oprah.svg);
+  width: 15ch;
 }
